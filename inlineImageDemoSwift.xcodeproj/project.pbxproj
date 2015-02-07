@@ -12,6 +12,7 @@
 		BF2FFD541A85144400337462 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF2FFD531A85144400337462 /* Images.xcassets */; };
 		BF2FFD571A85144400337462 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF2FFD551A85144400337462 /* LaunchScreen.xib */; };
 		BF2FFD631A85144400337462 /* inlineImageDemoSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2FFD621A85144400337462 /* inlineImageDemoSwiftTests.swift */; };
+		BF2FFD6F1A86518B00337462 /* 1f601.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2FFD6E1A86518B00337462 /* 1f601.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		BF2FFD5C1A85144400337462 /* inlineImageDemoSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inlineImageDemoSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF2FFD611A85144400337462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF2FFD621A85144400337462 /* inlineImageDemoSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inlineImageDemoSwiftTests.swift; sourceTree = "<group>"; };
+		BF2FFD6E1A86518B00337462 /* 1f601.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1f601.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				BF2FFD4E1A85144400337462 /* ViewController.swift */,
 				BF2FFD531A85144400337462 /* Images.xcassets */,
 				BF2FFD551A85144400337462 /* LaunchScreen.xib */,
+				BF2FFD6E1A86518B00337462 /* 1f601.png */,
 				BF2FFD4A1A85144400337462 /* Supporting Files */,
 			);
 			path = inlineImageDemoSwift;
@@ -191,6 +194,7 @@
 			files = (
 				BF2FFD571A85144400337462 /* LaunchScreen.xib in Resources */,
 				BF2FFD541A85144400337462 /* Images.xcassets in Resources */,
+				BF2FFD6F1A86518B00337462 /* 1f601.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +397,7 @@
 				BF2FFD681A85144400337462 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF2FFD691A85144400337462 /* Build configuration list for PBXNativeTarget "inlineImageDemoSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -401,6 +406,7 @@
 				BF2FFD6B1A85144400337462 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

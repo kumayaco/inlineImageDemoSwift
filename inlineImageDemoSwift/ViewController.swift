@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     var label: UILabel?
     
     override func viewDidLoad() {
@@ -21,14 +21,31 @@ class ViewController: UIViewController {
         
         var mutableAttributedString = NSMutableAttributedString(string: "this is a smile :)")
         
+        var textAttachment = NSTextAttachment()
+        var image = UIImage(named: "1f601.png")
+        
+        textAttachment.image = imageWithImage(UIImage(named: "1f601.png"), scaledToSize: CGSizeMake(17, 16))
+        
         label?.attributedText = mutableAttributedString
         
         view.addSubview(label!)
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-
+    
+    func imageWithImage(image: UIImage?, scaledToSize: CGSize) -> UIImage? {
+        
+        var newImage: UIImage?
+        
+        UIGraphicsBeginImageContextWithOptions(scaledToSize, false, 0.0)
+        image?.drawInRect(CGRectMake(0, 0, scaledToSize.width, scaledToSize.height))
+        newImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        return newImage
+    }
+    
 }
 
