@@ -26,6 +26,10 @@ class ViewController: UIViewController {
         
         textAttachment.image = imageWithImage(UIImage(named: "1f601.png"), scaledToSize: CGSizeMake(17, 16))
         
+        var iconAttributedString = NSAttributedString(attachment: textAttachment)
+        
+        mutableAttributedString.replaceCharactersInRange(NSMakeRange(16, 2), withAttributedString: iconAttributedString)
+        
         label?.attributedText = mutableAttributedString
         
         view.addSubview(label!)
